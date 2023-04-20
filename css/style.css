@@ -1,0 +1,65 @@
+/* Color */
+:root {
+  --main-background-color: #ffffff;
+  --footer-beckgrond-color: #2e2f42;
+  --text-footer-section-color: #f4f4fd;
+  --hover-focus-color: #404bbf;
+  --title-color: #2e2f42;
+  --text-color: #434455;
+  /* --text-footer-color: #e7e9fc; */
+  --blue-text-color: #4d5ae5;
+}
+
+body {
+  color: var(--text-color);
+  background-color: var(--main-background-color);
+}
+/* logo */
+.logo {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: var(--title-color);
+}
+.logo-blue {
+  color: var(--blue-text-color);
+}
+
+.list {
+  list-style: none;
+}
+/* menu navigation */
+.site-nav .link {
+  color: var(--title-color);
+  text-decoration: none;
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--hover-focus-color);
+}
+/* contact */
+.contact {
+  color: var(--text-color);
+  text-decoration: none;
+}
+/* hero section */
+
+.hero-title {
+  color: var(--main-background-color);
+  background-color: var(--footer-beckgrond-color);
+}
+.section-title,
+.section-qualities,
+.section-name {
+  color: var(--title-color);
+}
+/* button */
+.button {
+  color: var(--main-background-color);
+  background-color: var(--blue-text-color);
+}
+.footer-text {
+  color: var(--text-footer-section-color);
+}
+.logo-cloud {
+  color: var(--text-footer-section-color);
+}
