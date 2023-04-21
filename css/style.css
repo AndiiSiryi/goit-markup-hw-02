@@ -6,7 +6,7 @@
   --hover-focus-color: #404bbf;
   --title-color: #2e2f42;
   --text-color: #434455;
-  /* --text-footer-color: #e7e9fc; */
+  --hairlines-button-color: #e7e9fc;
   --blue-text-color: #4d5ae5;
 }
 
@@ -36,16 +36,28 @@ body {
 .site-nav .link:focus {
   color: var(--hover-focus-color);
 }
+.site-nav .link.current {
+  color: var(--hover-focus-color);
+}
 /* contact */
 .contact {
   color: var(--text-color);
   text-decoration: none;
+  font-style: normal;
+}
+.list .contact:hover,
+.list .contact:focus {
+  color: var(--hover-focus-color);
 }
 /* hero section */
 
 .hero-title {
   color: var(--main-background-color);
   background-color: var(--footer-beckgrond-color);
+}
+
+.section.team {
+  background-color: var(--text-footer-section-color);
 }
 .section-title,
 .section-qualities,
@@ -56,10 +68,33 @@ body {
 .button {
   color: var(--main-background-color);
   background-color: var(--blue-text-color);
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.hero .button:hover,
+.hero .button:focus {
+  background-color: var(--hover-focus-color);
+}
+.footer {
+  background-color: var(--footer-beckgrond-color);
 }
 .footer-text {
   color: var(--text-footer-section-color);
 }
 .logo-cloud {
   color: var(--text-footer-section-color);
+}
+/* Стилі Portfolio */
+.section .work-button {
+  color: var(--blue-text-color);
+  background-color: var(--text-footer-section-color);
+  border: 1px solid var(--hairlines-button-color);
+  border-radius: 4px;
+  cursor: pointer;
+}
+.section .work-button:hover,
+.section .work-button:focus {
+  color: var(--main-background-color);
+  background-color: var(--hover-focus-color);
 }
