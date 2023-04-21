@@ -54,9 +54,12 @@ body {
 .site-nav .link:focus {
   color: var(--hover-focus-color);
 }
-.site-nav .link.current {
-  color: var(--hover-focus-color);
+.current {
+  color: var(--title-color);
 }
+/* .site-nav .link.current {
+  color: var(--hover-focus-color);
+} */
 /* Contacts */
 .address {
   font-style: normal;
