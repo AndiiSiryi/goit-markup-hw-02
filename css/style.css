@@ -24,15 +24,18 @@ body {
 .logo {
   font-family: "Raleway", sans-serif;
   text-transform: uppercase;
-  text-decoration: none;
-  color: var(--title-color);
-
+  color: var(--blue-text-color);
+  font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
 }
-.logo-blue {
-  color: var(--blue-text-color);
+.logo-title {
+  color: var(--title-color);
+}
+
+.link {
+  text-decoration: none;
 }
 
 .list {
@@ -55,10 +58,13 @@ body {
   color: var(--hover-focus-color);
 }
 /* Contacts */
+.address {
+  font-style: normal;
+}
 .contact {
   color: var(--text-color);
   text-decoration: none;
-  font-style: normal;
+  line-height: 1.5;
 }
 .list .contact:hover,
 .list .contact:focus {
