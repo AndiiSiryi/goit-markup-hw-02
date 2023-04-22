@@ -57,9 +57,9 @@ body {
 .current {
   color: var(--title-color);
 }
-/* .site-nav .link.current {
+.site-nav.list .link.current {
   color: var(--hover-focus-color);
-} */
+}
 /* Contacts */
 .address {
   font-style: normal;
