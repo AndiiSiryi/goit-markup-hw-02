@@ -74,14 +74,16 @@ body {
   color: var(--hover-focus-color);
 }
 /* hero section */
-
+.hero {
+  background-color: var(--footer-beckgrond-color);
+}
 .hero-title {
   color: var(--main-background-color);
-  background-color: var(--footer-beckgrond-color);
 
   font-size: 56px;
   line-height: 1.07;
   text-align: center;
+  letter-spacing: 0.02em;
 }
 
 .section.team {
@@ -93,6 +95,10 @@ body {
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
+  letter-spacing: 0.02em;
+}
+.list-team {
+  background-color: var(--main-background-color);
 }
 
 .section-qualities,
@@ -102,11 +108,16 @@ body {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
+  letter-spacing: 0.02em;
 }
 
 .section-text {
   font-weight: 400;
   line-height: 1.5;
+}
+
+.transform {
+  text-transform: capitalize;
 }
 /* button */
 .button {
