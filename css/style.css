@@ -61,9 +61,10 @@ body {
   color: var(--hover-focus-color);
 } */
 /* Contacts */
-
-.contact {
+.add {
   font-style: normal;
+}
+.contact {
   color: var(--text-color);
   text-decoration: none;
   line-height: 1.5;
