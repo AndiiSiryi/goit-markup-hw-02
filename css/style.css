@@ -54,17 +54,16 @@ body {
 .site-nav .link:focus {
   color: var(--hover-focus-color);
 }
-.current {
+.but {
   color: var(--title-color);
 }
-.site-nav.list .link.current {
+/* .site-nav.list .link.but {
   color: var(--hover-focus-color);
-}
+} */
 /* Contacts */
-.address {
-  font-style: normal;
-}
+
 .contact {
+  font-style: normal;
   color: var(--text-color);
   text-decoration: none;
   line-height: 1.5;
